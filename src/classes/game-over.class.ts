@@ -16,6 +16,7 @@ export class GameOver {
       text: `GAME OVER YOUR SCORE: ${value}`,
       style: GAME_OVER_CONSTANTS.game_over_text_style,
     });
+
     gameOverText.anchor.set(0.5);
     restart.anchor.set(0.5);
 
