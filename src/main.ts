@@ -9,8 +9,8 @@ const gameScene = document.getElementById("app");
 
 async function startGame() {
   Assets.addBundle("images", {
-    cat: "/images/cat.png",
-    cactus: "/images/cactus.png",
+    cat: "./images/cat.png",
+    cactus: "./images/cactus.png",
   });
 
   await Assets.loadBundle(["images"]);
