@@ -187,6 +187,8 @@ async function startGame() {
   // catContainer;
   // cactusContainer;
   // counterContainer;
+  // window.addEventListener
+  // restart.addEventListener
 }
 
 startGame();
