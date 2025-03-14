@@ -11,7 +11,7 @@ export const GAME_OVER_CONSTANTS = {
   },
 
   game_over_text_style: {
-    // align: "center",
+    align: "center",
     fontFamily: "Arial",
     fontSize: 44,
     fill: "black",
@@ -22,5 +22,10 @@ export const GAME_OVER_CONSTANTS = {
   game_over_text_position: {
     x: 250,
     y: 80,
+  },
+
+  container: {
+    x: 800,
+    y: 400,
   },
 };
